@@ -56,6 +56,98 @@ body {
 
 /* Typewriter*/
 
+.profil {
+  font-size: 18px;
+  float: left;
+  width: auto;
+  text-align: center;
+}
+.profil p{
+  font-size: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  animation-name: rubberBand;
+  animation-duration: 3s;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.card {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.card p{
+  color: grey;
+  font-size: 18px;
+}
+.socmed {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.socmed:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.socmed: hover {
+  opacity: 1;
+}
+.fa-envelope {
+  background: #999999;
+}
+.fa-linkedin {
+  background: #999999;
+}
+.fa-facebook {
+  background: #999999;
+}
+.fa-twitter {
+  background: #999999;
+}
+
+.fa {
+  padding: 5px;
+  width: 30px;
+  border-radius: 20%;
+}
+
 .footer-logo {
   float:left;
   font-size: 25px;

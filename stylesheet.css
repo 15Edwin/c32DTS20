@@ -53,3 +53,38 @@ body {
 }
 
 /* Typewriter*/
+
+.footer-logo {
+  float:left;
+  font-size: 25px;
+  padding:30px;
+  
+}
+.footer-list li {
+  list-style: none;
+  float:left;
+  padding: 40px;
+  text-align:center;
+  font-size: 12px;
+}
+
+/**transparan footer-list **/
+.message:hover {
+  color: #FF0000;
+  cursor: pointer;
+}
+.footer-bawah {
+  padding: 40px;
+}
+.content-bawah {
+  text-align:center;
+  border-top: 2px solid #dee7ec;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 15px;
+}
+
+/**transparan footer bawah**/
+span:hover {
+  color: #FF0000;
+  cursor: pointer;
+}

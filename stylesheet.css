@@ -54,8 +54,6 @@ body {
   margin-bottom: 3px;
 }
 
-/* Typewriter*/
-
 .profil {
   font-size: 18px;
   float: left;
@@ -148,6 +146,7 @@ body {
   border-radius: 20%;
 }
 
+/* Typewriter*/
 .footer-logo {
   float:left;
   font-size: 25px;

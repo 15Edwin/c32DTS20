@@ -20,11 +20,12 @@ body {
   background-image: url("assets/bg-1.jpg");
   background-size: cover;
   color: white;
-  text-align: center;
+  
   margin: 0 auto;
 }
 
 .extra h1 {
+  text-align: center;
   opacity: 0.9;
   font-size: 70px;
   letter-spacing: 5px;

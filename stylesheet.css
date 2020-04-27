@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Garamond";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 header {
     margin-top: 0;
-    height: 65px;
+    height: 75px;
     width: 100%;
     background-color:white;
     position: fixed;
@@ -54,7 +54,6 @@ header {
     float: left;
     transition: all 0.5s;
     letter-spacing: 2px;
-    font-family: Arial, Helvetica, sans-serif;
 }
   
 .header-right a:hover {
@@ -66,7 +65,6 @@ header {
   background-image: url("assets/bg-1.jpg");
   background-size: cover;
   color: white;
-  
   margin: 0 auto;
 }
 
@@ -106,6 +104,7 @@ header {
   width: auto;
   text-align: center;
 }
+
 .profil p{
   font-size: 30px;
   padding-top: 25px;
@@ -150,10 +149,12 @@ header {
   width: 20%;
   text-align: center;
 }
+
 .card p{
   color: grey;
   font-size: 18px;
 }
+
 .socmed {
   padding: 12px 24px;
   color: white;
@@ -162,7 +163,6 @@ header {
   border-radius: 4px;
   text-align: center;
 }
-
 
 .socmed:active {
   position: relative;

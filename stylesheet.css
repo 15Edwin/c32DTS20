@@ -57,7 +57,7 @@ header {
 }
   
 .header-right a:hover {
-    background-color: rgba(0,0,255,0.3);
+    background-color:  rgba(13,87,56,0.5);
 }
 
 .extra {
@@ -225,6 +225,6 @@ header {
 
 /**transparan footer bawah**/
 span:hover {
-  color: #FF0000;
+  color:  rgba(13,87,56,0.8);
   cursor: pointer;
 }

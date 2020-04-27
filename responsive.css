@@ -1,5 +1,15 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-right {
+        padding-top: 30px;
+        float: left;
+    }
+    
     .extra h1 {
       font-size: 32px;
       width: 30ch;
@@ -13,8 +23,27 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    header {
+        position: none;
+    }
+    
+    .header-left {
+        padding-top: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
     .header-right {
-      display: none;
+        float: none;
+        display: block;
+    }
+
+    .header-right a {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;       
     }
 
     .extra h1 {

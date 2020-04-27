@@ -14,6 +14,11 @@
       font-size: 32px;
       width: 30ch;
     }
+
+    .extra p {
+      font-size: 20px;
+      margin-top: 20px;
+    }
     .card {
       width: 50%;
       display: inline-block;
@@ -52,6 +57,11 @@
       font-size: 26px;
       line-height: 36px;
       margin-left: 3%;
+    }
+
+    .extra p {
+      font-size: 15px;
+      margin-top: 20px;
     }
     
     .card {

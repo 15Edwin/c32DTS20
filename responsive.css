@@ -1,20 +1,61 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-right {
+        padding-top: 30px;
+        float: left;
+    }
+    
     .extra h1 {
       font-size: 32px;
       width: 30ch;
+    }
+    .card {
+      width: 50%;
+      display: inline-block;
+      text-align: center;
     }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    .header-right {
-      display: none;
+    header {
+        height: 200px;
+        position: relative;
     }
     
+    .header-left {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header-right {
+        float: none;
+        display: block;
+    }
+
+    .header-right a {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;       
+    }
+
     .extra h1 {
       font-size: 26px;
       line-height: 36px;
       margin-left: 3%;
+    }
+    
+    .card {
+      width: 100%;
+      text-align: center;
     }
   }

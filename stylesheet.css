@@ -113,7 +113,7 @@ header {
 }
 
 .profil p{
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
   font-weight: bold;
@@ -265,7 +265,6 @@ header {
 footer {
   margin-top: 1150px;
   background-color: #00796B;
-  
 }
 
 .footer-logo {

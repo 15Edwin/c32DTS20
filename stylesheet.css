@@ -61,7 +61,7 @@ header {
 }
 
 .extra {
-  padding: 180px 0 300px 0;
+  padding: 180px 0 180px 0;
   background-image: url("assets/bg-1.jpg");
   background-size: cover;
   color: white;
@@ -88,6 +88,12 @@ header {
   text-align: center;
 }
 
+.extra p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+
 @keyframes type {
   0% {
     width: 0ch;
@@ -98,10 +104,6 @@ header {
   }
 }
 
-.extra p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
 
 .profil {
   font-size: 18px;
@@ -233,4 +235,66 @@ header {
 span:hover {
   color:  rgba(13,87,56,0.8);
   cursor: pointer;
+}
+
+.contact {
+  margin: 100px 80px;
+}
+
+.form-title {
+  float: left;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.form-title h1 {
+  font-size: 40px;
+}
+
+.form-title p {
+  font-size: 15px;
+}
+
+.form {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  float: right;
+  width: 600px;
+}
+
+.form p {
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.form input {
+  padding: 20px;
+  width: 500px;
+  border: 1px solid #dee7ec;
+}
+
+.form textarea {
+  padding:20px;
+  width: 500px;
+  height: 100px;
+  border: 1px solid #dee7ec;
+}
+
+.btn {
+  background-color: #00796B;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button input {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #009688;
 }

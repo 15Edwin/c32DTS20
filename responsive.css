@@ -25,10 +25,12 @@
 @media all and (max-width: 670px) {
     header {
         height: 200px;
+        position: relative;
     }
     
     .header-left {
         padding-top: 10px;
+        padding-bottom: 10px;
         width: 100%;
         display: block;
         text-align: center;

@@ -49,7 +49,7 @@ header {
 .header-right a {
     padding: 5px 5px;
     margin: -10px 30px;
-    color:black;
+    color: black;
     display: block;
     float: left;
     transition: all 0.5s;
